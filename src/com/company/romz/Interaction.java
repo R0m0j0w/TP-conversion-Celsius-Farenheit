@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 class Interaction {
 
-    void FarOrCel(){
+    static void FarOrCel(){
         Scanner tempChoice = new Scanner(System.in);
         Scanner farOrCelChoice = new Scanner(System.in);
         int temp , choice ;
@@ -31,7 +31,7 @@ class Interaction {
         }
     }
 
-    void RunAgain(){
+      void RunAgain(){
         int answer;
         do
         {
